@@ -1,0 +1,38 @@
+[
+  {
+    "language": "zh",
+    "config": "cmn_hans_cn",
+    "file": "test/10026684690566417990.wav",
+    "reference": "“这并不是告别。这是一个篇章的结束，也是新篇章的开始。”",
+    "normalized": "这 并 不 是 告 别 这 是 一 个 篇 章 的 结 束 也 是 新 篇 章 的 开 始",
+    "seconds": 10.38,
+    "source": "https://huggingface.co/datasets/google/fleurs/resolve/70bb2e84b976b7e960aa89f1c648e09c59f894dd/data/cmn_hans_cn/audio/test.tar.gz"
+  },
+  {
+    "language": "en",
+    "config": "en_us",
+    "file": "test/1003119935936341070.wav",
+    "reference": "However, due to the slow communication channels, styles in the west could lag behind by 25 to 30 year.",
+    "normalized": "however due to the slow communication channels styles in the west could lag behind by 25 to 30 year",
+    "seconds": 10.56,
+    "source": "https://huggingface.co/datasets/google/fleurs/resolve/70bb2e84b976b7e960aa89f1c648e09c59f894dd/data/en_us/audio/test.tar.gz"
+  },
+  {
+    "language": "es",
+    "config": "es_419",
+    "file": "test/1001146817223348054.wav",
+    "reference": "Se recomienda enfáticamente a los viajeros que se informen sobre cualquier riesgo de clima extremo en el área que visitan, dado que ello puede afectar sus planes de viaje.",
+    "normalized": "se recomienda enfáticamente a los viajeros que se informen sobre cualquier riesgo de clima extremo en el área que visitan dado que ello puede afectar sus planes de viaje",
+    "seconds": 12.84,
+    "source": "https://huggingface.co/datasets/google/fleurs/resolve/70bb2e84b976b7e960aa89f1c648e09c59f894dd/data/es_419/audio/test.tar.gz"
+  },
+  {
+    "language": "it",
+    "config": "it_it",
+    "file": "test/10000151032537989529.wav",
+    "reference": "Il blog è uno strumento che si prefigge di incoraggiare la collaborazione e sviluppare l'apprendimento degli studenti ben oltre la giornata scolastica normale.",
+    "normalized": "il blog è uno strumento che si prefigge di incoraggiare la collaborazione e sviluppare l'apprendimento degli studenti ben oltre la giornata scolastica normale",
+    "seconds": 11.52,
+    "source": "https://huggingface.co/datasets/google/fleurs/resolve/70bb2e84b976b7e960aa89f1c648e09c59f894dd/data/it_it/audio/test.tar.gz"
+  }
+]

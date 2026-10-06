@@ -1,0 +1,5 @@
+FLEURS, Google, CC BY 4.0
+https://huggingface.co/datasets/google/fleurs
+https://creativecommons.org/licenses/by/4.0/
+Selected test recordings converted to mono 16 kHz PCM16 for engineering smoke tests.
+One sample per language is not a model quality benchmark.

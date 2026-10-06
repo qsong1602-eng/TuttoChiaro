@@ -1,0 +1,59 @@
+[
+  {
+    "group": "qwen",
+    "path": "Qwen3.5-4B-Q4_K_M.gguf",
+    "local": "Qwen3.5-4B-Q4_K_M.gguf",
+    "repo": "unsloth/Qwen3.5-4B-GGUF",
+    "revision": "e87f176479d0855a907a41277aca2f8ee7a09523",
+    "size": 2740937888,
+    "sha256": "00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4"
+  },
+  {
+    "group": "qwen_asr",
+    "path": "Qwen3-ASR-1.7B-Q8_0.gguf",
+    "local": "qwen_asr/Qwen3-ASR-1.7B-Q8_0.gguf",
+    "repo": "ggml-org/Qwen3-ASR-1.7B-GGUF",
+    "revision": "36a678687ba7d07a74ca70ccb0e36902e005fb80",
+    "size": 2165034944,
+    "sha256": "58e22d0532d4eacaf034cfac17a6fed159f37c41390c710186783be439d1fc57"
+  },
+  {
+    "group": "qwen_asr",
+    "path": "mmproj-Qwen3-ASR-1.7B-bf16.gguf",
+    "local": "qwen_asr/mmproj-Qwen3-ASR-1.7B-bf16.gguf",
+    "repo": "ggml-org/Qwen3-ASR-1.7B-GGUF",
+    "revision": "36a678687ba7d07a74ca70ccb0e36902e005fb80",
+    "size": 641773984,
+    "sha256": "8882e9ddab3186f9aa71b1417c847177913e1466655ac944cf86e9b846735d62"
+  },
+  {
+    "group": "whisper",
+    "path": "turbo-decoder.int8.onnx",
+    "local": "whisper/turbo-decoder.int8.onnx",
+    "repo": "csukuangfj/sherpa-onnx-whisper-turbo",
+    "revision": "2ca6ff69fc878651b770880507669577ac41c2ff",
+    "size": 361080764,
+    "sha256": "20accd02388482eb3a46bd615631adfdc85e1eb2c7db9ea3f02a40ffe6b81547",
+    "gitBlob": "bfebe364ec08531b40977768f1995b8194d7a05a"
+  },
+  {
+    "group": "whisper",
+    "path": "turbo-encoder.int8.onnx",
+    "local": "whisper/turbo-encoder.int8.onnx",
+    "repo": "csukuangfj/sherpa-onnx-whisper-turbo",
+    "revision": "2ca6ff69fc878651b770880507669577ac41c2ff",
+    "size": 674716297,
+    "sha256": "b02dcdf54f348741e93fe732b67d933c8dcb6735655f710640143081db38878b",
+    "gitBlob": "a17b2215cd09bc297e1e8522a02834888ce7f305"
+  },
+  {
+    "group": "whisper",
+    "path": "turbo-tokens.txt",
+    "local": "whisper/turbo-tokens.txt",
+    "repo": "csukuangfj/sherpa-onnx-whisper-turbo",
+    "revision": "2ca6ff69fc878651b770880507669577ac41c2ff",
+    "size": 816730,
+    "sha256": "b34b360dbb493e781e479794586d661700670d65564001f23024971d1f2fa126",
+    "gitBlob": "a4edf0b719c10d28cd83f8c294449f99ff5d5dc0"
+  }
+]

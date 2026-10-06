@@ -1,0 +1,2 @@
+# Copy to ignored local.properties and replace this with your own absolute SDK path.
+sdk.dir=C:/path/to/TuttoChiaro/.tooling/android-sdk

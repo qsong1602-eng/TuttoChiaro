@@ -1,0 +1,30 @@
+--- a/sherpa-onnx/csrc/offline-recognizer-whisper-impl.h
++++ b/sherpa-onnx/csrc/offline-recognizer-whisper-impl.h
+@@ -176,11 +176,12 @@
+       s = ApplyInverseTextNormalization(s);
+       s = ApplyHomophoneReplacer(std::move(s));
+ 
+-      text += s;
++      // BPE pieces may split a UTF-8 codepoint. Normalize only after joining.
++      text += sym_table[i];
+       r.tokens.push_back(s);
+     }
+ 
+-    r.text = text;
++    r.text = ApplyHomophoneReplacer(ApplyInverseTextNormalization(text));
+     r.lang = src.lang;
+ 
+     // Convert segments from segment timestamp mode to parallel vectors
+@@ -209,10 +210,10 @@
+             std::string s = sym_table[tok_id];
+             s = ApplyInverseTextNormalization(s);
+             s = ApplyHomophoneReplacer(std::move(s));
+-            seg_text += s;
++            seg_text += sym_table[tok_id];
+           }
+         }
+-        r.segment_texts.push_back(std::move(seg_text));
++        r.segment_texts.push_back(ApplyHomophoneReplacer(ApplyInverseTextNormalization(seg_text)));
+       }
+     }
+ 

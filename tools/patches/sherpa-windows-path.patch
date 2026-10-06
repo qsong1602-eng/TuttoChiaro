@@ -1,0 +1,11 @@
+--- a/sherpa-onnx/jni/CMakeLists.txt
++++ b/sherpa-onnx/jni/CMakeLists.txt
+@@ -53,7 +53,7 @@
+ 
+ if(ANDROID OR (UNIX AND NOT APPLE))
+   set_target_properties(sherpa-onnx-jni PROPERTIES
+-    LINK_FLAGS "-Wl,--version-script=${CMAKE_CURRENT_SOURCE_DIR}/sherpa-onnx-symbols.lds"
++    LINK_FLAGS "-Wl,--version-script=\"${CMAKE_CURRENT_SOURCE_DIR}/sherpa-onnx-symbols.lds\""
+   )
+ elseif(APPLE)
+   set_target_properties(sherpa-onnx-jni PROPERTIES

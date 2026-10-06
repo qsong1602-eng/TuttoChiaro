@@ -1,0 +1,12 @@
+{
+  "version": "1.13.8+whisper-utf8",
+  "sourceArchiveSha256": "7ee4f2d117bf72a0651146535b9158d62f11a86520e68142270ca9a35a9032b7",
+  "sourceRevisionPrefix": "11afbd0",
+  "patch": "tools/patches/sherpa-whisper-utf8.patch",
+  "originalAarSha256": "633c24321e06b1fe79feafa03ea16cbc0f8a286641e2da3559bac91bdb13bd96",
+  "patchedAarSha256": "a04b1032510dfc7ea4396999280b4a25cc40f5cb983eccde17f4ec0def3ca81a",
+  "jniSha256": "02742681e1f62dba95c8462c52f2eb9179404dbafaa0a2d394b66be8e93f8b5f",
+  "onnxruntime": "1.28.2",
+  "ndk": "28.2.13676358",
+  "abi": "arm64-v8a"
+}
